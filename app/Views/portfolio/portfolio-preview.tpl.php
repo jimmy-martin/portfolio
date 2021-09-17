@@ -5,10 +5,10 @@
        <div class="col-sm-12">
          <div class="title-box text-center">
            <h3 class="title-a">
-             Portfolio
+             Quelques projets
            </h3>
            <p class="subtitle-a">
-             Voici une liste de tous mes projets
+             Voci une liste non-exhaustive de quelques projets
            </p>
            <div class="line-mf"></div>
          </div>

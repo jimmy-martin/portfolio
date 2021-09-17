@@ -13,6 +13,8 @@ class CoreController
      */
     protected function show(string $viewName, array $viewDatas = [])
     {
+        global $router;
+        
         $viewDatas['currentPage'] = $viewName;
 
         extract($viewDatas);    
