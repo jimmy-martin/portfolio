@@ -11,7 +11,7 @@ class MainController extends CoreController
 
     public function portfolio()
     {
-        $this->show('portfolio/portoflio');
+        $this->show('portfolio/portfolio');
     }
 
     public function contact()

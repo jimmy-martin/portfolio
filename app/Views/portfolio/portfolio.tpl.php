@@ -1,5 +1,5 @@
  <!-- ======= Portfolio Section ======= -->
- <section id="work" class="portfolio-mf sect-pt4 route">
+ <section id="work" class="portfolio-mf sect-pt4 route sect-mt4">
    <div class="container">
      <div class="row">
        <div class="col-sm-12">
@@ -8,7 +8,7 @@
              Portfolio
            </h3>
            <p class="subtitle-a">
-             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Voici le récapitulatif de tous mes projets
            </p>
            <div class="line-mf"></div>
          </div>
