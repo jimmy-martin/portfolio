@@ -13,7 +13,10 @@ class CoreController
      */
     protected function show(string $viewName, array $viewDatas = [])
     {
-        extract($viewDatas);
+        $viewDatas['currentPage'] = $viewName;
+
+        extract($viewDatas);    
+        // dump($viewDatas);
 
         require_once __DIR__ . '/../Views/layout/header.tpl.php';
         require_once __DIR__ . '/../Views/' . $viewName . '.tpl.php';

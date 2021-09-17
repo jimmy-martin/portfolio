@@ -11,6 +11,7 @@ if (array_key_exists('BASE_URI', $_SERVER)) {
 }
 
 $router->addRoutes([
+    // Page d'accueil
     [
         'GET',
         '/',
@@ -19,6 +20,28 @@ $router->addRoutes([
             'controller' => '\Portfolio\Controllers\MainController'
         ],
         'main-home'
+    ],
+
+    // Portfolio
+    [
+        'GET',
+        '/portfolio',
+        [
+            'method' => 'portfolio',
+            'controller' => '\Portfolio\Controllers\MainController'
+        ],
+        'main-portfolio'
+    ],
+
+    // Contact
+    [
+        'GET',
+        '/contact',
+        [
+            'method' => 'contact',
+            'controller' => '\Portfolio\Controllers\MainController'
+        ],
+        'main-contact'
     ]
 ]);
 
