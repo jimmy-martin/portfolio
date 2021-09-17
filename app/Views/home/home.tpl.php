@@ -81,4 +81,4 @@
     </div>
   </section><!-- End About Section -->
 
-  <?php require_once __DIR__ . '/../portfolio/portfolio.tpl.php'; ?>
+  <?php require_once __DIR__ . '/../portfolio/portfolio-preview.tpl.php'; ?>
