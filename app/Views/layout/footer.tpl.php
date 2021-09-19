@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Jimmy Martin</strong>. Tous droits réservées</p>
+            <p class="copyright">&copy; Copyright <strong><?= $me->getFirstName() . ' ' . $me->getLastName() ?></strong>. Tous droits réservées</p>
             <div class="credits">
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
