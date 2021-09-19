@@ -36,10 +36,10 @@
                 </div>
                 <div class="w-like">
                   <?php if ($project->getGithubLink() !== '') : ?>
-                    <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-github"></span></a>
+                    <a class="" href="<?= $project->getGithubLink() ?>" target="_blank"> <span class="bi bi-github"></span></a>
                   <?php endif; ?>
                   <?php if ($project->getSiteLink() !== '') : ?>
-                    <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-three-dots"></span></a>
+                    <a class="" href="<?= $project->getSiteLink() ?>" target="_blank"> <span class="bi bi-three-dots"></span></a>
                   <?php endif; ?>
                 </div>
               </div>
