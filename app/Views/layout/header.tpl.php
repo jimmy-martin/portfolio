@@ -31,7 +31,7 @@
     <header id="header" class="fixed-top" <?php if($currentPage !== 'home/home') : ?>style="background-color: rgb(0 0 0 / 90%)"<?php endif; ?>>
         <div class="container d-flex align-items-center justify-content-between">
 
-            <h1 class="logo"><a href="<?= $router->generate('main-home') ?>">Jimmy Martin - Développeur Web</a></h1>
+            <h1 class="logo"><a href="<?= $router->generate('main-home') ?>"><?= $me->getFirstName() . ' ' . $me->getLastName() ?> - Développeur Web</a></h1>
 
             <?php require_once __DIR__ . '/../partials/nav.tpl.php' ?>
 

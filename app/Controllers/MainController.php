@@ -2,11 +2,19 @@
 
 namespace Portfolio\Controllers;
 
+use Portfolio\Models\Me;
+
 class MainController extends CoreController
 {
     public function home()
     {
-        $this->show('home/home');
+        $me = new Me();
+        $skills = $me->getSkills();
+
+        $this->show('home/home', [
+            'me' => $me,
+            'skills' => $skills
+        ]);
     }
 
     public function portfolio()
