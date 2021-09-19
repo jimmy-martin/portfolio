@@ -5,9 +5,9 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">Jimmy MARTIN</h1>
-          <p class="hero-subtitle"><span class="typed"
-              data-typed-items="Développeur Web, A la recherche d'une alternance"></span></p>
+          <h1 class="hero-title mb-4">Jimmy MARTIN,</h1>
+          <p class="hero-subtitle">à la recherche <span class="typed"
+              data-typed-items="d'une alternance, d'un CDI, d'un stage"></span></p>
           <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">En savoir plus&hellip;</a></p>
         </div>
       </div>
