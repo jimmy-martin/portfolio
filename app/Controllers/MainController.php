@@ -6,13 +6,14 @@ use Portfolio\Models\Me;
 
 class MainController extends CoreController
 {
+
     public function home()
     {
         $me = new Me();
-        $skills = $me->getSkills();
+        $skills = $me->getSkills();        
 
         $this->show('home/home', [
-            'skills' => $skills
+            'skills' => $skills,
         ]);
     }
 

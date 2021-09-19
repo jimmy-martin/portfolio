@@ -15,25 +15,26 @@
        </div>
      </div>
      <div class="row">
+       <?php foreach($portfolioPreview as $project) : ?>
        <!-- Project start-->
        <div class="col-md-4">
          <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+           <a href="<?= $project->getImageUrl() ?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
              <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+               <img src="<?= $project->getImageUrl() ?>" alt="" class="img-fluid">
              </div>
            </a>
            <div class="work-content">
              <div class="row">
                <div class="col-sm-8">
-                 <h2 class="w-title">Pokédex</h2>
+                 <h2 class="w-title"><?= $project->getName() ?></h2>
                  <div class="w-more">
-                   <a class="w-ctegory" href="#">PHP</a>
+                   <a class="w-ctegory" href="#"><?= $project->getMainLanguage() ?></a>
                  </div>
                </div>
                <div class="col-sm-4">
                  <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                   <a href="<?= $router->generate('main-portfolio') . '#' . array_search($project, $portfolioPreview)?>"> <span class="bi bi-plus-circle"></span></a>
                  </div>
                </div>
              </div>
@@ -41,137 +42,7 @@
          </div>
        </div>
        <!-- Project end-->
-       <!-- Project start-->
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Pokédex</h2>
-                 <div class="w-more">
-                   <a class="w-ctegory" href="#">PHP</a>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <!-- Project end-->
-       <!-- Project start-->
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Pokédex</h2>
-                 <div class="w-more">
-                   <a class="w-ctegory" href="#">PHP</a>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <!-- Project end-->
-       <!-- Project start-->
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Pokédex</h2>
-                 <div class="w-more">
-                   <a class="w-ctegory" href="#">PHP</a>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <!-- Project end-->
-       <!-- Project start-->
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Pokédex</h2>
-                 <div class="w-more">
-                   <a class="w-ctegory" href="#">PHP</a>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <!-- Project end-->
-       <!-- Project start-->
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Pokédex</h2>
-                 <div class="w-more">
-                   <a class="w-ctegory" href="#">PHP</a>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <!-- Project end-->
-
+       <?php endforeach; ?>
      </div>
    </div>
  </section><!-- End Portfolio Section -->
