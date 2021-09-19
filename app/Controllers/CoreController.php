@@ -21,7 +21,7 @@ class CoreController
         $viewDatas['me'] = new Me();
 
         extract($viewDatas);    
-        dump($viewDatas);
+        // dump($viewDatas);
 
         require_once __DIR__ . '/../Views/layout/header.tpl.php';
         require_once __DIR__ . '/../Views/' . $viewName . '.tpl.php';

@@ -11,7 +11,7 @@ class Portfolio
      *
      * @param string $name Name
      * @param string $desc Description
-     * @param string $imageUrl Name of your image (must be placed in assets/img folder)
+     * @param string $imageUrl Name of your image (must be placed in assets/img folder and .png)
      * @param string $main_language Main language
      * @param string $subtitle Subtitle
      * @param string $github_link GitHub repository link
@@ -20,15 +20,7 @@ class Portfolio
      */
     public function addProject(string $name, string $desc, string $imageUrl, string $main_language, string $github_link, string $subtitle = '', string $site_link = '')
     {
-        $project = [
-            'name' => $name,
-            'subtitle' => $subtitle,
-            'desc' => $desc,
-            'image' => $imageUrl,
-            'main_language' => $main_language,
-            'github' => $github_link,
-            'site' => $site_link
-        ];
+        $project = new Project($name, $desc, $imageUrl, $main_language, $github_link, $subtitle, $site_link);
 
         array_push($this->projects, $project);
     }

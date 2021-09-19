@@ -55,10 +55,16 @@
                   </p>
                   <div class="title-box-2 mt-4">
                     <h5 class="title-left">
-                      Email:
+                      Contact:
                     </h5>
                   </div>
-                  <p><span class="title-s">Gmail: </span><?= $me->getEmail() ?></p>
+                  <p><span class="title-s">Email: </span><?= $me->getEmail() ?></p>
+                  <div class="socials text-center">
+                      <ul>
+                        <li><a href="https://www.linkedin.com/in/jimmy-martin-dev/" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://twitter.com/jimmydev_" target="_blank"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                      </ul>
+                    </div>
                 </div>
               </div>
             </div>
