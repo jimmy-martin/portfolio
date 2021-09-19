@@ -7,7 +7,7 @@ class Me
     protected string $lastname = 'Martin';
     protected string $firstname = 'Jimmy';
     protected int $age = 21;
-    protected string $profil = 'Développeur PHP / Symfony';
+    protected string $profile = 'Développeur PHP / Symfony';
     protected string $email = 'jimmy.martin952@gmail.com';
     protected array $skills = [
         ['PHP', 90],
@@ -68,7 +68,7 @@ class Me
      */ 
     public function getAge()
     {
-        return $this->age . 'ans';
+        return $this->age . ' ans';
     }
 
     /**
@@ -86,9 +86,9 @@ class Me
     /**
      * Get the value of profil
      */ 
-    public function getProfil()
+    public function getProfile()
     {
-        return $this->profil;
+        return $this->profile;
     }
 
     /**
@@ -96,9 +96,9 @@ class Me
      *
      * @return  self
      */ 
-    public function setProfil(string $profil)
+    public function setProfile(string $profile)
     {
-        $this->profil = $profil;
+        $this->profile = $profile;
 
         return $this;
     }
