@@ -2,6 +2,8 @@
 
 namespace Portfolio\Controllers;
 
+use Portfolio\Models\Me;
+
 class CoreController
 {
     /**
@@ -16,6 +18,7 @@ class CoreController
         global $router;
         
         $viewDatas['currentPage'] = $viewName;
+        $viewDatas['me'] = new Me();
 
         extract($viewDatas);    
         // dump($viewDatas);

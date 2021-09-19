@@ -12,7 +12,6 @@ class MainController extends CoreController
         $skills = $me->getSkills();
 
         $this->show('home/home', [
-            'me' => $me,
             'skills' => $skills
         ]);
     }
