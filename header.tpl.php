@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <base href="https://jimmy-martin.alwaysdata.net/">
+    <base href="<?= $_SERVER['BASE_URI'] ?>/">
 
     <title>Jimmy Martin - Portfolio</title>
     <meta content="Site portfolio de Jimmy Martin" name="description">
