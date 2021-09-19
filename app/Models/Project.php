@@ -17,15 +17,15 @@ class Project
      * Create a project
      *
      * @param string $name Name
+     * @param string $subtitle Subtitle
      * @param string $desc Description
      * @param string $imageUrl Name of your image (must be placed in assets/img folder and .png)
      * @param string $main_language Main language
-     * @param string $subtitle Subtitle
      * @param string $github_link GitHub repository link
      * @param string $site_link Site link
      * @return void
      */
-    public function __construct(string $name, string $desc, string $imageUrl, string $main_language, string $github_link, string $subtitle = '', string $site_link = '')
+    public function __construct(string $name, string $subtitle, string $desc, string $imageUrl, string $main_language, string $github_link, string $site_link = '')
     {
         $this->name = $name;
         $this->subtitle = $subtitle;

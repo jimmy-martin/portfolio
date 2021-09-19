@@ -3,32 +3,23 @@
 namespace Portfolio\Controllers;
 
 use Portfolio\Models\Me;
-use Portfolio\Models\Portfolio;
 
 class MainController extends CoreController
 {
+
     public function home()
     {
         $me = new Me();
-        $skills = $me->getSkills();
-
-        $portfolioModel = new Portfolio();
-        $portfolio = $portfolioModel->getHomeProjects();
+        $skills = $me->getSkills();        
 
         $this->show('home/home', [
             'skills' => $skills,
-            'portfolio' => $portfolio
         ]);
     }
 
     public function portfolio()
     {
-        $portfolioModel = new Portfolio();
-        $portfolio = $portfolioModel->getProjects();
-
-        $this->show('portfolio/portfolio', [
-            'portfolio' => $portfolio
-        ]);
+        $this->show('portfolio/portfolio');
     }
 
     public function contact()
