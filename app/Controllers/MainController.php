@@ -51,10 +51,12 @@ class MainController extends CoreController
         if (empty($errors)) {
             $to      = 'jimmy.martin952@gmail.com';
             $headers = array(
-                'From' => 'webmaster@example.com',
+                'From' => $from,
             );
 
             mail($to, $subject, $message, $headers);
+            header('Location: /');
+            exit;
         } else {
             $this->show('error/err404');
         }

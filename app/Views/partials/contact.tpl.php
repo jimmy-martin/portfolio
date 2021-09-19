@@ -37,10 +37,6 @@
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
-                            <div class="error-message"></div>
-                            <div class="sent-message">Votre message a bien été envoyé. Merci !</div>
-                          </div>
-                          <div class="col-md-12 text-center">
                             <button type="submit" class="button button-a button-big button-rouded">Envoyer votre message</button>
                           </div>
                         </div>
