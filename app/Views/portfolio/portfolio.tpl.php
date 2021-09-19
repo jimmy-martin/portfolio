@@ -1,165 +1,139 @@
- <!-- ======= Portfolio Section ======= -->
- <section id="work" class="portfolio-mf sect-pt4 route sect-mt4">
-   <div class="container">
-     <div class="row">
-       <div class="col-sm-12">
-         <div class="title-box text-center">
-           <h3 class="title-a">
-             Portfolio
-           </h3>
-           <p class="subtitle-a">
-             Voici une liste de tous mes projets
-           </p>
-           <div class="line-mf"></div>
-         </div>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Lorem impsum dolor</h2>
-                 <div class="w-more">
-                   <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Loreda Cuno Nere</h2>
-                 <div class="w-more">
-                   <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Mavrito Lana Dere</h2>
-                 <div class="w-more">
-                   <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Bindo Laro Cado</h2>
-                 <div class="w-more">
-                   <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Studio Lena Mado</h2>
-                 <div class="w-more">
-                   <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4">
-         <div class="work-box">
-           <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-             <div class="work-img">
-               <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
-             </div>
-           </a>
-           <div class="work-content">
-             <div class="row">
-               <div class="col-sm-8">
-                 <h2 class="w-title">Studio Big Bang</h2>
-                 <div class="w-more">
-                   <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="w-like">
-                   <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-
-     </div>
-   </div>
- </section><!-- End Portfolio Section -->
+<!-- ======= Portfolio Section ======= -->
+<section id="work" class="portfolio-mf sect-pt4 route sect-mt4">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Portfolio
+          </h3>
+          <p class="subtitle-a">
+            Voici la liste complète de tous mes projets
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Project start-->
+    <div class="row mb-4">
+      <div class="card mb-3 work-box">
+        <div class="row g-0">
+          <div class="col-xxl-4 text-center">
+            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+          </div>
+          <div class="col-xxl-8">
+            <div class="work-content">
+              <h5 class="w-title">Pokédex</h5>
+              <p class="card-text"><small class="text-muted">Projet réalisé dans le cadre d'une journée libre de ma formation (réviser les notions apprises depuis le début de ma formation).</small></p>
+              <div class="w-more">
+                <p class="card-text">Pokédex est une sorte de dictionnaire de tous les pokémon. Ces derniers possèdent des caractéristiques de combat appelées statistiques et un ou deux types (plante, roche, feu, etc&hellip;).</p>
+                <a class="w-ctegory" href="#">PHP</a>
+                <a class="w-ctegory" href="#">PHP</a>
+              </div>
+              <div class="w-like">
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-github"></span></a>
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-three-dots"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project end-->
+    <!-- Project start-->
+    <div class="row mb-4">
+      <div class="card mb-3 work-box">
+        <div class="row g-0">
+          <div class="col-xxl-4 text-center">
+            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+          </div>
+          <div class="col-xxl-8">
+            <div class="work-content">
+              <h5 class="w-title">Pokédex</h5>
+              <p class="card-text"><small class="text-muted">Projet réalisé dans le cadre d'une journée libre de ma formation (réviser les notions apprises depuis le début de ma formation).</small></p>
+              <div class="w-more">
+                <p class="card-text">Pokédex est une sorte de dictionnaire de tous les pokémon. Ces derniers possèdent des caractéristiques de combat appelées statistiques et un ou deux types (plante, roche, feu, etc&hellip;).</p>
+                <a class="w-ctegory" href="#">PHP</a>
+                <a class="w-ctegory" href="#">PHP</a>
+              </div>
+              <div class="w-like">
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-github"></span></a>
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-three-dots"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project end-->
+    <!-- Project start-->
+    <div class="row mb-4">
+      <div class="card mb-3 work-box">
+        <div class="row g-0">
+          <div class="col-xxl-4 text-center">
+            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+          </div>
+          <div class="col-xxl-8">
+            <div class="work-content">
+              <h5 class="w-title">Pokédex</h5>
+              <p class="card-text"><small class="text-muted">Projet réalisé dans le cadre d'une journée libre de ma formation (réviser les notions apprises depuis le début de ma formation).</small></p>
+              <div class="w-more">
+                <p class="card-text">Pokédex est une sorte de dictionnaire de tous les pokémon. Ces derniers possèdent des caractéristiques de combat appelées statistiques et un ou deux types (plante, roche, feu, etc&hellip;).</p>
+                <a class="w-ctegory" href="#">PHP</a>
+                <a class="w-ctegory" href="#">PHP</a>
+              </div>
+              <div class="w-like">
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-github"></span></a>
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-three-dots"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project end-->
+    <!-- Project start-->
+    <div class="row mb-4">
+      <div class="card mb-3 work-box">
+        <div class="row g-0">
+          <div class="col-xxl-4 text-center">
+            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+          </div>
+          <div class="col-xxl-8">
+            <div class="work-content">
+              <h5 class="w-title">Pokédex</h5>
+              <p class="card-text"><small class="text-muted">Projet réalisé dans le cadre d'une journée libre de ma formation (réviser les notions apprises depuis le début de ma formation).</small></p>
+              <div class="w-more">
+                <p class="card-text">Pokédex est une sorte de dictionnaire de tous les pokémon. Ces derniers possèdent des caractéristiques de combat appelées statistiques et un ou deux types (plante, roche, feu, etc&hellip;).</p>
+                <a class="w-ctegory" href="#">PHP</a>
+                <a class="w-ctegory" href="#">PHP</a>
+              </div>
+              <div class="w-like">
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-github"></span></a>
+                <a class="" href="https://github.com/jimmy-martin/pokedex" target="_blank"> <span class="bi bi-three-dots"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project end-->
+    
+  </div>
+</section><!-- End Portfolio Section -->

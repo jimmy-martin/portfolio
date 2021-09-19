@@ -8,7 +8,7 @@
              Quelques projets
            </h3>
            <p class="subtitle-a">
-             Voci la liste de mes 6 derniers projets
+             Voici la liste de mes 6 derniers projets
            </p>
            <div class="line-mf"></div>
          </div>
