@@ -42,6 +42,17 @@ $router->addRoutes([
             'controller' => '\Portfolio\Controllers\MainController'
         ],
         'main-contact'
+    ],
+
+    // Contact
+    [
+        'POST',
+        '/contact',
+        [
+            'method' => 'mail',
+            'controller' => '\Portfolio\Controllers\MainController'
+        ],
+        'main-mail'
     ]
 ]);
 
