@@ -25,13 +25,30 @@
                   </div>
                 </div>
                 <div class="skill-mf">
-                  <p class="title-s">Compétences</p>
-                  <?php foreach ($skills as $skill) : ?>
-                    <span><?= $skill[0] ?></span> <span class="pull-right"><?= $skill[1] ?>%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: <?= $skill[1] ?>%" aria-valuenow="<?= $skill[1] ?>" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  <?php endforeach; ?>
+                  <p class="title-s">Technologies</p>
+                  <ul style="list-style-type:none">
+                    <?php foreach($skills as $skill) : ?>
+                    <li><?= $skill ?></li>
+                    <?php endforeach; ?>
+                  </ul>
+                  <p class="title-s">Systèmes</p>
+                  <ul style="list-style-type:none">
+                  <?php foreach($systems as $system) : ?>
+                    <li><?= $system ?></li>
+                    <?php endforeach; ?>
+                  </ul>
+                  <p class="title-s">Utilitaires</p>
+                  <ul style="list-style-type:none">
+                  <?php foreach($utils as $util) : ?>
+                    <li><?= $util ?></li>
+                    <?php endforeach; ?>
+                  </ul>
+                  <p class="title-s">Logiciels</p>
+                  <ul style="list-style-type:none">
+                  <?php foreach($softwares as $soft) : ?>
+                    <li><?= $soft ?></li>
+                    <?php endforeach; ?>
+                  </ul>
                 </div>
               </div>
               <div class="col-md-6">

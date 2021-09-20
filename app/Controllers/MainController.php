@@ -14,9 +14,15 @@ class MainController extends CoreController
     {
         $me = new Me();
         $skills = $me->getSkills();
+        $systems = $me->getSystems();
+        $utils = $me->getUtils();
+        $softwares = $me->getSoftwares();
 
         $this->show('home/home', [
             'skills' => $skills,
+            'systems' => $systems,
+            'utils' => $utils,
+            'softwares' => $softwares
         ]);
     }
 
