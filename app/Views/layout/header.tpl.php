@@ -16,12 +16,14 @@
     <meta property="og:description" content="Portfolio de Jimmy MARTIN, Développeur Web Junior en formation chez O'clock">
     <meta property="og:url" content="https://jimmy-martin.alwaysdata.net/">
     <meta property="og:site_name" content="Jimmy Martin">
+    <meta property="og:image" content="https://jimmy-martin.alwaysdata.net/assets/img/me.jpeg">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://jimmy-martin.alwaysdata.net/">
     <meta name="twitter:title" content="Portfolio de Jimmy Martin | Développeur Web Junior">
     <meta name="twitter:description" content="Portfolio de Jimmy MARTIN, Développeur Web Junior en formation chez O'clock">
+    <meta name="twitter:image" content="https://jimmy-martin.alwaysdata.net/assets/img/me.jpeg">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
