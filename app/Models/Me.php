@@ -7,11 +7,10 @@ class Me
     protected string $lastname = 'Martin';
     protected string $firstname = 'Jimmy';
     protected int $age = 21;
-    protected string $profile = 'Développeur PHP / Symfony';
+    protected string $profile = 'Développeur PHP';
     protected string $email = 'jimmy.martin952@gmail.com';
     protected array $skills = [
         ['PHP', 90],
-        ['Symfony', 90],
         ['Bootstrap', 70],
         ['JavaScript', 60],
         ['HTML', 75],
