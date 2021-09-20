@@ -9,13 +9,10 @@ class Me
     protected int $age = 21;
     protected string $profile = 'Développeur PHP';
     protected string $email = 'jimmy.martin952@gmail.com';
-    protected array $skills = [
-        ['PHP', 90],
-        ['Bootstrap', 70],
-        ['JavaScript', 60],
-        ['HTML', 75],
-        ['CSS', 75]
-    ];
+    protected array $skills = ['PHP (Orienté Objet)','MySQL','JavaScript','HTML','CSS'];
+    protected array $systems = ['Linux (Ubuntu)', 'Windows'];
+    protected array $utils = ['Git (GitHub)', 'Netlify'];
+    protected array $softwares = ['Visual Studio Code', 'Bureautique (Microsoft Office, Google Docs)'];
     protected string $presentation1 = "Hello, moi, c'est Jimmy, j'habite en région parisienne.";
     protected string $presentation2 = "Passionné d'informatique, j'ai d'abord entrepris un BTS SIO (Services Informatiques aux Organisations option SLAM (Solutions Logicielles et Applications Métier)) que j'ai arrêté car la pédagogie de l'école et le programme ne me convenaient pas.";
     protected string $presentation3 = "Après 2 années à travailler dans un tout autre domaine (la restauration), j'ai décidé de reprendre mes études en passant par une formation Développeur Web et Web Mobile que propose l'école O'clock dans laquelle je suis actuellement et qui se finit en Décembre 2021.";
@@ -222,4 +219,64 @@ class Me
         return $this;
     }
 
+
+    /**
+     * Get the value of systems
+     */ 
+    public function getSystems()
+    {
+        return $this->systems;
+    }
+
+    /**
+     * Set the value of systems
+     *
+     * @return  self
+     */ 
+    public function setSystems($systems)
+    {
+        $this->systems = $systems;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of utils
+     */ 
+    public function getUtils()
+    {
+        return $this->utils;
+    }
+
+    /**
+     * Set the value of utils
+     *
+     * @return  self
+     */ 
+    public function setUtils($utils)
+    {
+        $this->utils = $utils;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of softwares
+     */ 
+    public function getSoftwares()
+    {
+        return $this->softwares;
+    }
+
+    /**
+     * Set the value of softwares
+     *
+     * @return  self
+     */ 
+    public function setSoftwares($softwares)
+    {
+        $this->softwares = $softwares;
+
+        return $this;
+    }
 }
